@@ -62,7 +62,7 @@ function styles() {
         .pipe(browserSync.stream())
 }
 
-function build(){
+function build() {
     return src([
         'app/css/style.min.css',
         'app/fonts/**/*',
